@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Shadows+Into+Light&display=swap');
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    width: 100%;
+    flex-direction: column;
+   
+
+}
+.image{
+    width:350px;
+    
+}
+.titleSearchBar{
+    font-family: 'Shadows Into Light', cursive;
+    color:#ffff;
+    font-size: 30px;
+}
+.objectsNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

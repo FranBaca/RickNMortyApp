@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.container{
+   display: flex;
+   flex-direction: row;
+}
+
+.containerSearch{
+    background-color: #87BC99;
+    text-rendering: auto;
+    color:#ffff;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: flex;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    justify-content: center;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+
+}
+
+.searchButton{
+    color:#fff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:rgba(225,255,255,0.5); 
+    display: flex; 
+    margin-left: 0.5cm;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor:pointer
+  }
+  .searchButton:hover{
+    box-shadow: wheat;
+    background:  rgba(255, 255, 255, 0.2);
+  }

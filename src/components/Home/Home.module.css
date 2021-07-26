@@ -1,0 +1,73 @@
+.LogoHome{
+   align-items: center;
+   width: auto;
+   height: auto;
+   margin:250px;
+   transition: 0.5s ease-in-out;
+   animation: slidein 0.75s;
+   
+}
+.LogoHome:hover{
+    transform: translateY(-10px);
+}
+
+.buttonHome{
+    background-color: #87BC99; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  
+  animation: bounceIn 0.6s;
+  transform: rotate(0deg) scale(1) translateZ(0);
+  transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
+  cursor: pointer;
+
+}
+.buttonHome:hover{
+    background-color: #BADBD4;
+    color:black;
+    transition: transform 125ms;
+    transform: translateY(-10px);
+}
+
+@keyframes bounceIn {
+    0% {
+      opacity: 1;
+      transform: scale(.3);
+    } 
+  
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    } 
+  
+    70% {
+      opacity: 1;
+      transform: scale(.9);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+
+  @keyframes slidein {
+    from {
+      margin-left: 80%;
+     
+    }
+  
+    to {
+      margin-left: 0%;
+      
+    }
+  }
+
+  
